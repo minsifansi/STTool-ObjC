@@ -12,5 +12,6 @@
 
 + (instancetype)st_hexColor:(NSInteger)hex;
 + (instancetype)st_hexColor:(NSInteger)hex alpha:(float)alpha;
++ (instancetype)st_red:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue alpha:(float)alpha;
 
 @end
