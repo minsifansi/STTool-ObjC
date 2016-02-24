@@ -8,6 +8,8 @@
 
 #import "UIFont+STCreation.h"
 
+#define PROPORTION CGRectGetWidth([UIScreen mainScreen].bounds) / 320.0
+
 @implementation UIFont (STCreation)
 
 + (instancetype)st_autoFontSize:(CGFloat)size {
