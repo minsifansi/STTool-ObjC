@@ -7,6 +7,7 @@
 //
 
 #import "STTool+FileManager.h"
+#import <UIKit/UIKit.h>
 
 @implementation STTool (FileManager)
 

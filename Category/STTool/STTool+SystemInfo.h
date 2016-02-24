@@ -12,5 +12,7 @@
 
 + (NSString *)st_bundleId;
 + (NSString *)st_bundleVersion;
++ (NSString *)st_version;
++ (NSString *)st_appName;
 
 @end

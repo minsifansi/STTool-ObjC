@@ -17,7 +17,7 @@
 + (instancetype)st_tableHeaderView {
     
     UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 10)];
-    headerView.backgroundColor = BG_COLOR;
+    headerView.backgroundColor = [UIColor lightGrayColor];
     return headerView;
 }
 
