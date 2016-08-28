@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090560F31D73125100481D86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090560F21D73125100481D86 /* main.m */; };
+		090560F61D73125100481D86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090560F51D73125100481D86 /* AppDelegate.m */; };
+		090560F91D73125100481D86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090560F81D73125100481D86 /* ViewController.m */; };
+		090560FC1D73125100481D86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090560FA1D73125100481D86 /* Main.storyboard */; };
+		090560FE1D73125100481D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090560FD1D73125100481D86 /* Assets.xcassets */; };
+		090561011D73125100481D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090560FF1D73125100481D86 /* LaunchScreen.storyboard */; };
+		0905610C1D73125100481D86 /* STToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905610B1D73125100481D86 /* STToolTests.m */; };
+		090561171D73125100481D86 /* STToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561161D73125100481D86 /* STToolUITests.m */; };
+		0905615A1D73185000481D86 /* NSDate+STCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561271D73185000481D86 /* NSDate+STCreation.m */; };
+		0905615B1D73185000481D86 /* NSDate+STExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561291D73185000481D86 /* NSDate+STExtension.m */; };
+		0905615C1D73185000481D86 /* NSObject+STExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905612B1D73185000481D86 /* NSObject+STExtension.m */; };
+		0905615D1D73185000481D86 /* NSString+STExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905612D1D73185000481D86 /* NSString+STExtension.m */; };
+		0905615E1D73185000481D86 /* STTool+Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561301D73185000481D86 /* STTool+Audio.m */; };
+		0905615F1D73185000481D86 /* STTool+FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561321D73185000481D86 /* STTool+FileManager.m */; };
+		090561601D73185000481D86 /* STTool+FormatVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561341D73185000481D86 /* STTool+FormatVerify.m */; };
+		090561611D73185000481D86 /* STTool+SaveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561361D73185000481D86 /* STTool+SaveObject.m */; };
+		090561621D73185000481D86 /* STTool+SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561381D73185000481D86 /* STTool+SystemInfo.m */; };
+		090561631D73185000481D86 /* STTool+Verify.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905613A1D73185000481D86 /* STTool+Verify.m */; };
+		090561641D73185000481D86 /* STTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905613C1D73185000481D86 /* STTool.m */; };
+		090561651D73185000481D86 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905613F1D73185000481D86 /* UIActionSheet+Blocks.m */; };
+		090561661D73185000481D86 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561411D73185000481D86 /* UIAlertView+Blocks.m */; };
+		090561671D73185000481D86 /* UIAlertView+STDefaultAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561431D73185000481D86 /* UIAlertView+STDefaultAlert.m */; };
+		090561681D73185000481D86 /* UIColor+STCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561451D73185000481D86 /* UIColor+STCreation.m */; };
+		090561691D73185000481D86 /* UIColor+STExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561471D73185000481D86 /* UIColor+STExtension.m */; };
+		0905616A1D73185000481D86 /* UIFont+STCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561491D73185000481D86 /* UIFont+STCreation.m */; };
+		0905616B1D73185000481D86 /* UIImage+STCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905614B1D73185000481D86 /* UIImage+STCreation.m */; };
+		0905616C1D73185000481D86 /* UILabel+STExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905614D1D73185000481D86 /* UILabel+STExtension.m */; };
+		0905616D1D73185000481D86 /* UITextField+STExtenstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905614F1D73185000481D86 /* UITextField+STExtenstion.m */; };
+		0905616E1D73185000481D86 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561511D73185000481D86 /* UITextView+Placeholder.m */; };
+		0905616F1D73185000481D86 /* UIView+STCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561531D73185000481D86 /* UIView+STCreation.m */; };
+		090561701D73185000481D86 /* UIView+STExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561551D73185000481D86 /* UIView+STExtension.m */; };
+		090561711D73185000481D86 /* UIView+STOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561571D73185000481D86 /* UIView+STOperation.m */; };
+		090561721D73185000481D86 /* UIViewController+STCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 090561591D73185000481D86 /* UIViewController+STCreation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		090561081D73125100481D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090560E61D73125100481D86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090560ED1D73125100481D86;
+			remoteInfo = STTool;
+		};
+		090561131D73125100481D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090560E61D73125100481D86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090560ED1D73125100481D86;
+			remoteInfo = STTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090560EE1D73125100481D86 /* STTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090560F21D73125100481D86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		090560F41D73125100481D86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		090560F51D73125100481D86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		090560F71D73125100481D86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		090560F81D73125100481D86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		090560FB1D73125100481D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		090560FD1D73125100481D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		090561001D73125100481D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		090561021D73125100481D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090561071D73125100481D86 /* STToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0905610B1D73125100481D86 /* STToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STToolTests.m; sourceTree = "<group>"; };
+		0905610D1D73125100481D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090561121D73125100481D86 /* STToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		090561161D73125100481D86 /* STToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STToolUITests.m; sourceTree = "<group>"; };
+		090561181D73125100481D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090561261D73185000481D86 /* NSDate+STCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+STCreation.h"; sourceTree = "<group>"; };
+		090561271D73185000481D86 /* NSDate+STCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+STCreation.m"; sourceTree = "<group>"; };
+		090561281D73185000481D86 /* NSDate+STExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+STExtension.h"; sourceTree = "<group>"; };
+		090561291D73185000481D86 /* NSDate+STExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+STExtension.m"; sourceTree = "<group>"; };
+		0905612A1D73185000481D86 /* NSObject+STExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+STExtension.h"; sourceTree = "<group>"; };
+		0905612B1D73185000481D86 /* NSObject+STExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+STExtension.m"; sourceTree = "<group>"; };
+		0905612C1D73185000481D86 /* NSString+STExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STExtension.h"; sourceTree = "<group>"; };
+		0905612D1D73185000481D86 /* NSString+STExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STExtension.m"; sourceTree = "<group>"; };
+		0905612F1D73185000481D86 /* STTool+Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STTool+Audio.h"; sourceTree = "<group>"; };
+		090561301D73185000481D86 /* STTool+Audio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STTool+Audio.m"; sourceTree = "<group>"; };
+		090561311D73185000481D86 /* STTool+FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STTool+FileManager.h"; sourceTree = "<group>"; };
+		090561321D73185000481D86 /* STTool+FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STTool+FileManager.m"; sourceTree = "<group>"; };
+		090561331D73185000481D86 /* STTool+FormatVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STTool+FormatVerify.h"; sourceTree = "<group>"; };
+		090561341D73185000481D86 /* STTool+FormatVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STTool+FormatVerify.m"; sourceTree = "<group>"; };
+		090561351D73185000481D86 /* STTool+SaveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STTool+SaveObject.h"; sourceTree = "<group>"; };
+		090561361D73185000481D86 /* STTool+SaveObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STTool+SaveObject.m"; sourceTree = "<group>"; };
+		090561371D73185000481D86 /* STTool+SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STTool+SystemInfo.h"; sourceTree = "<group>"; };
+		090561381D73185000481D86 /* STTool+SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STTool+SystemInfo.m"; sourceTree = "<group>"; };
+		090561391D73185000481D86 /* STTool+Verify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STTool+Verify.h"; sourceTree = "<group>"; };
+		0905613A1D73185000481D86 /* STTool+Verify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STTool+Verify.m"; sourceTree = "<group>"; };
+		0905613B1D73185000481D86 /* STTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTool.h; sourceTree = "<group>"; };
+		0905613C1D73185000481D86 /* STTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTool.m; sourceTree = "<group>"; };
+		0905613E1D73185000481D86 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		0905613F1D73185000481D86 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		090561401D73185000481D86 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		090561411D73185000481D86 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		090561421D73185000481D86 /* UIAlertView+STDefaultAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+STDefaultAlert.h"; sourceTree = "<group>"; };
+		090561431D73185000481D86 /* UIAlertView+STDefaultAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+STDefaultAlert.m"; sourceTree = "<group>"; };
+		090561441D73185000481D86 /* UIColor+STCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+STCreation.h"; sourceTree = "<group>"; };
+		090561451D73185000481D86 /* UIColor+STCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+STCreation.m"; sourceTree = "<group>"; };
+		090561461D73185000481D86 /* UIColor+STExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+STExtension.h"; sourceTree = "<group>"; };
+		090561471D73185000481D86 /* UIColor+STExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+STExtension.m"; sourceTree = "<group>"; };
+		090561481D73185000481D86 /* UIFont+STCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+STCreation.h"; sourceTree = "<group>"; };
+		090561491D73185000481D86 /* UIFont+STCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+STCreation.m"; sourceTree = "<group>"; };
+		0905614A1D73185000481D86 /* UIImage+STCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+STCreation.h"; sourceTree = "<group>"; };
+		0905614B1D73185000481D86 /* UIImage+STCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+STCreation.m"; sourceTree = "<group>"; };
+		0905614C1D73185000481D86 /* UILabel+STExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+STExtension.h"; sourceTree = "<group>"; };
+		0905614D1D73185000481D86 /* UILabel+STExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+STExtension.m"; sourceTree = "<group>"; };
+		0905614E1D73185000481D86 /* UITextField+STExtenstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+STExtenstion.h"; sourceTree = "<group>"; };
+		0905614F1D73185000481D86 /* UITextField+STExtenstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+STExtenstion.m"; sourceTree = "<group>"; };
+		090561501D73185000481D86 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		090561511D73185000481D86 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		090561521D73185000481D86 /* UIView+STCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STCreation.h"; sourceTree = "<group>"; };
+		090561531D73185000481D86 /* UIView+STCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STCreation.m"; sourceTree = "<group>"; };
+		090561541D73185000481D86 /* UIView+STExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STExtension.h"; sourceTree = "<group>"; };
+		090561551D73185000481D86 /* UIView+STExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STExtension.m"; sourceTree = "<group>"; };
+		090561561D73185000481D86 /* UIView+STOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STOperation.h"; sourceTree = "<group>"; };
+		090561571D73185000481D86 /* UIView+STOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STOperation.m"; sourceTree = "<group>"; };
+		090561581D73185000481D86 /* UIViewController+STCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+STCreation.h"; sourceTree = "<group>"; };
+		090561591D73185000481D86 /* UIViewController+STCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+STCreation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090560EB1D73125100481D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090561041D73125100481D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0905610F1D73125100481D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090560E51D73125100481D86 = {
+			isa = PBXGroup;
+			children = (
+				090560F01D73125100481D86 /* STTool */,
+				0905610A1D73125100481D86 /* STToolTests */,
+				090561151D73125100481D86 /* STToolUITests */,
+				090560EF1D73125100481D86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090560EF1D73125100481D86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090560EE1D73125100481D86 /* STTool.app */,
+				090561071D73125100481D86 /* STToolTests.xctest */,
+				090561121D73125100481D86 /* STToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090560F01D73125100481D86 /* STTool */ = {
+			isa = PBXGroup;
+			children = (
+				090561241D73185000481D86 /* Category */,
+				090560F41D73125100481D86 /* AppDelegate.h */,
+				090560F51D73125100481D86 /* AppDelegate.m */,
+				090560F71D73125100481D86 /* ViewController.h */,
+				090560F81D73125100481D86 /* ViewController.m */,
+				090560F11D73125100481D86 /* Supporting Files */,
+			);
+			path = STTool;
+			sourceTree = "<group>";
+		};
+		090560F11D73125100481D86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				090560FA1D73125100481D86 /* Main.storyboard */,
+				090560FD1D73125100481D86 /* Assets.xcassets */,
+				090560FF1D73125100481D86 /* LaunchScreen.storyboard */,
+				090561021D73125100481D86 /* Info.plist */,
+				090560F21D73125100481D86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0905610A1D73125100481D86 /* STToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				0905610B1D73125100481D86 /* STToolTests.m */,
+				0905610D1D73125100481D86 /* Info.plist */,
+			);
+			path = STToolTests;
+			sourceTree = "<group>";
+		};
+		090561151D73125100481D86 /* STToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				090561161D73125100481D86 /* STToolUITests.m */,
+				090561181D73125100481D86 /* Info.plist */,
+			);
+			path = STToolUITests;
+			sourceTree = "<group>";
+		};
+		090561241D73185000481D86 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				090561251D73185000481D86 /* Foundation */,
+				0905612E1D73185000481D86 /* STTool */,
+				0905613D1D73185000481D86 /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		090561251D73185000481D86 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				090561261D73185000481D86 /* NSDate+STCreation.h */,
+				090561271D73185000481D86 /* NSDate+STCreation.m */,
+				090561281D73185000481D86 /* NSDate+STExtension.h */,
+				090561291D73185000481D86 /* NSDate+STExtension.m */,
+				0905612A1D73185000481D86 /* NSObject+STExtension.h */,
+				0905612B1D73185000481D86 /* NSObject+STExtension.m */,
+				0905612C1D73185000481D86 /* NSString+STExtension.h */,
+				0905612D1D73185000481D86 /* NSString+STExtension.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		0905612E1D73185000481D86 /* STTool */ = {
+			isa = PBXGroup;
+			children = (
+				0905612F1D73185000481D86 /* STTool+Audio.h */,
+				090561301D73185000481D86 /* STTool+Audio.m */,
+				090561311D73185000481D86 /* STTool+FileManager.h */,
+				090561321D73185000481D86 /* STTool+FileManager.m */,
+				090561331D73185000481D86 /* STTool+FormatVerify.h */,
+				090561341D73185000481D86 /* STTool+FormatVerify.m */,
+				090561351D73185000481D86 /* STTool+SaveObject.h */,
+				090561361D73185000481D86 /* STTool+SaveObject.m */,
+				090561371D73185000481D86 /* STTool+SystemInfo.h */,
+				090561381D73185000481D86 /* STTool+SystemInfo.m */,
+				090561391D73185000481D86 /* STTool+Verify.h */,
+				0905613A1D73185000481D86 /* STTool+Verify.m */,
+				0905613B1D73185000481D86 /* STTool.h */,
+				0905613C1D73185000481D86 /* STTool.m */,
+			);
+			path = STTool;
+			sourceTree = "<group>";
+		};
+		0905613D1D73185000481D86 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0905613E1D73185000481D86 /* UIActionSheet+Blocks.h */,
+				0905613F1D73185000481D86 /* UIActionSheet+Blocks.m */,
+				090561401D73185000481D86 /* UIAlertView+Blocks.h */,
+				090561411D73185000481D86 /* UIAlertView+Blocks.m */,
+				090561421D73185000481D86 /* UIAlertView+STDefaultAlert.h */,
+				090561431D73185000481D86 /* UIAlertView+STDefaultAlert.m */,
+				090561441D73185000481D86 /* UIColor+STCreation.h */,
+				090561451D73185000481D86 /* UIColor+STCreation.m */,
+				090561461D73185000481D86 /* UIColor+STExtension.h */,
+				090561471D73185000481D86 /* UIColor+STExtension.m */,
+				090561481D73185000481D86 /* UIFont+STCreation.h */,
+				090561491D73185000481D86 /* UIFont+STCreation.m */,
+				0905614A1D73185000481D86 /* UIImage+STCreation.h */,
+				0905614B1D73185000481D86 /* UIImage+STCreation.m */,
+				0905614C1D73185000481D86 /* UILabel+STExtension.h */,
+				0905614D1D73185000481D86 /* UILabel+STExtension.m */,
+				0905614E1D73185000481D86 /* UITextField+STExtenstion.h */,
+				0905614F1D73185000481D86 /* UITextField+STExtenstion.m */,
+				090561501D73185000481D86 /* UITextView+Placeholder.h */,
+				090561511D73185000481D86 /* UITextView+Placeholder.m */,
+				090561521D73185000481D86 /* UIView+STCreation.h */,
+				090561531D73185000481D86 /* UIView+STCreation.m */,
+				090561541D73185000481D86 /* UIView+STExtension.h */,
+				090561551D73185000481D86 /* UIView+STExtension.m */,
+				090561561D73185000481D86 /* UIView+STOperation.h */,
+				090561571D73185000481D86 /* UIView+STOperation.m */,
+				090561581D73185000481D86 /* UIViewController+STCreation.h */,
+				090561591D73185000481D86 /* UIViewController+STCreation.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090560ED1D73125100481D86 /* STTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0905611B1D73125100481D86 /* Build configuration list for PBXNativeTarget "STTool" */;
+			buildPhases = (
+				090560EA1D73125100481D86 /* Sources */,
+				090560EB1D73125100481D86 /* Frameworks */,
+				090560EC1D73125100481D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STTool;
+			productName = STTool;
+			productReference = 090560EE1D73125100481D86 /* STTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		090561061D73125100481D86 /* STToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0905611E1D73125100481D86 /* Build configuration list for PBXNativeTarget "STToolTests" */;
+			buildPhases = (
+				090561031D73125100481D86 /* Sources */,
+				090561041D73125100481D86 /* Frameworks */,
+				090561051D73125100481D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090561091D73125100481D86 /* PBXTargetDependency */,
+			);
+			name = STToolTests;
+			productName = STToolTests;
+			productReference = 090561071D73125100481D86 /* STToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		090561111D73125100481D86 /* STToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090561211D73125100481D86 /* Build configuration list for PBXNativeTarget "STToolUITests" */;
+			buildPhases = (
+				0905610E1D73125100481D86 /* Sources */,
+				0905610F1D73125100481D86 /* Frameworks */,
+				090561101D73125100481D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090561141D73125100481D86 /* PBXTargetDependency */,
+			);
+			name = STToolUITests;
+			productName = STToolUITests;
+			productReference = 090561121D73125100481D86 /* STToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090560E61D73125100481D86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = saitjr;
+				TargetAttributes = {
+					090560ED1D73125100481D86 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					090561061D73125100481D86 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 090560ED1D73125100481D86;
+					};
+					090561111D73125100481D86 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 090560ED1D73125100481D86;
+					};
+				};
+			};
+			buildConfigurationList = 090560E91D73125100481D86 /* Build configuration list for PBXProject "STTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 090560E51D73125100481D86;
+			productRefGroup = 090560EF1D73125100481D86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090560ED1D73125100481D86 /* STTool */,
+				090561061D73125100481D86 /* STToolTests */,
+				090561111D73125100481D86 /* STToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090560EC1D73125100481D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090561011D73125100481D86 /* LaunchScreen.storyboard in Resources */,
+				090560FE1D73125100481D86 /* Assets.xcassets in Resources */,
+				090560FC1D73125100481D86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090561051D73125100481D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090561101D73125100481D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090560EA1D73125100481D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090561641D73185000481D86 /* STTool.m in Sources */,
+				090561631D73185000481D86 /* STTool+Verify.m in Sources */,
+				0905616A1D73185000481D86 /* UIFont+STCreation.m in Sources */,
+				0905615D1D73185000481D86 /* NSString+STExtension.m in Sources */,
+				0905615F1D73185000481D86 /* STTool+FileManager.m in Sources */,
+				0905615B1D73185000481D86 /* NSDate+STExtension.m in Sources */,
+				090561621D73185000481D86 /* STTool+SystemInfo.m in Sources */,
+				0905616E1D73185000481D86 /* UITextView+Placeholder.m in Sources */,
+				0905615A1D73185000481D86 /* NSDate+STCreation.m in Sources */,
+				0905615E1D73185000481D86 /* STTool+Audio.m in Sources */,
+				0905616F1D73185000481D86 /* UIView+STCreation.m in Sources */,
+				090561671D73185000481D86 /* UIAlertView+STDefaultAlert.m in Sources */,
+				090560F91D73125100481D86 /* ViewController.m in Sources */,
+				090561691D73185000481D86 /* UIColor+STExtension.m in Sources */,
+				090561661D73185000481D86 /* UIAlertView+Blocks.m in Sources */,
+				090561681D73185000481D86 /* UIColor+STCreation.m in Sources */,
+				090560F61D73125100481D86 /* AppDelegate.m in Sources */,
+				090561701D73185000481D86 /* UIView+STExtension.m in Sources */,
+				090561711D73185000481D86 /* UIView+STOperation.m in Sources */,
+				0905615C1D73185000481D86 /* NSObject+STExtension.m in Sources */,
+				090561601D73185000481D86 /* STTool+FormatVerify.m in Sources */,
+				090561611D73185000481D86 /* STTool+SaveObject.m in Sources */,
+				090561651D73185000481D86 /* UIActionSheet+Blocks.m in Sources */,
+				0905616D1D73185000481D86 /* UITextField+STExtenstion.m in Sources */,
+				090561721D73185000481D86 /* UIViewController+STCreation.m in Sources */,
+				0905616B1D73185000481D86 /* UIImage+STCreation.m in Sources */,
+				090560F31D73125100481D86 /* main.m in Sources */,
+				0905616C1D73185000481D86 /* UILabel+STExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090561031D73125100481D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0905610C1D73125100481D86 /* STToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0905610E1D73125100481D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090561171D73125100481D86 /* STToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		090561091D73125100481D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090560ED1D73125100481D86 /* STTool */;
+			targetProxy = 090561081D73125100481D86 /* PBXContainerItemProxy */;
+		};
+		090561141D73125100481D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090560ED1D73125100481D86 /* STTool */;
+			targetProxy = 090561131D73125100481D86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		090560FA1D73125100481D86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090560FB1D73125100481D86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		090560FF1D73125100481D86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090561001D73125100481D86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090561191D73125100481D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0905611A1D73125100481D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0905611C1D73125100481D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.STTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0905611D1D73125100481D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.STTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0905611F1D73125100481D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.STToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STTool.app/STTool";
+			};
+			name = Debug;
+		};
+		090561201D73125100481D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.STToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STTool.app/STTool";
+			};
+			name = Release;
+		};
+		090561221D73125100481D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = STToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.STToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STTool;
+			};
+			name = Debug;
+		};
+		090561231D73125100481D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = STToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.STToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090560E91D73125100481D86 /* Build configuration list for PBXProject "STTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090561191D73125100481D86 /* Debug */,
+				0905611A1D73125100481D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0905611B1D73125100481D86 /* Build configuration list for PBXNativeTarget "STTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0905611C1D73125100481D86 /* Debug */,
+				0905611D1D73125100481D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0905611E1D73125100481D86 /* Build configuration list for PBXNativeTarget "STToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0905611F1D73125100481D86 /* Debug */,
+				090561201D73125100481D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		090561211D73125100481D86 /* Build configuration list for PBXNativeTarget "STToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090561221D73125100481D86 /* Debug */,
+				090561231D73125100481D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090560E61D73125100481D86 /* Project object */;
+}
